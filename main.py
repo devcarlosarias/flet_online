@@ -11,5 +11,6 @@ def main(page: ft.Page):
                        bgcolor="green", 
                        color="white")
     page.appbar = appBar
+    page.update()
 
 ft.app(main, view=ft.AppView.WEB_BROWSER)
